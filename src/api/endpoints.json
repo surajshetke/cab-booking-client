@@ -1,0 +1,26 @@
+{
+    "serverURL":"http://127.0.01:7777",
+    "api":{
+        "users":{
+            "create":"/users",
+            "update":"/users/",
+            "delete":"/users/",
+            "getOne":"/users/",
+            "getAll":"/users"
+        },
+        "auth":{
+            "userLogin":"/auth",
+            "validate":"/auth/validate"
+        },
+        "booking":{
+            "createBooking":"/booking"
+        },
+        "cabs":{
+            "getAllCab":"/cabs",
+            "createCab":"/cabs",
+            "updateCab":"/cabs/",
+            "deleteCab":"/cabs/"
+        }
+
+    }
+}
